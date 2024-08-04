@@ -1,88 +1,81 @@
 
 ------
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Who was the first emperor of the underwater kingdom of Atlantia?
+ Date: 2024-08-04T08:13:24.045Z
+---
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzNjMTgyZDAtNTIzOS0xMWVmLWFjNTMtNWQ1ZjZlZWQ5NGQ3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: I don't now, maybe Zeus?
+ Date: 2024-08-04T08:13:38.045Z
+---
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzc4MDVmOTAtNTIzOS0xMWVmLTgwMTUtMGQ2ZjJkZGJmZjA3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Emperor Oceanius the Great, known for uniting the seven underwater clans.
+ Date: 2024-08-04T08:13:44.329Z
 
 ------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2MwZTgyMzAtNGYyMy0xMWVmLWE1MjgtZGZjMTFiYTdjZDRl
- Text: Mateusz a w kontekscie tego Manchesteru cos sie ruszylo?
- Date: 2024-07-31T09:58:49.555Z
-
-------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: #Cloud migration - jest opracowywana lista osób, które mogłyby być wypożyczone do zespołu zajmującego się Cloud migration na 3-6 misięcy. Chodzi o ławkowiczów. Zadania są różne, od tworzenia dokumentacji biznesowej, przez sprzedażową, po playbook techniczny dotyczący migracji. 
- Date: 2024-07-31T09:47:26.292Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: What is the diet of a drakonfly, a mythical insect that breathes fire?
+ Date: 2024-08-04T08:13:01.806Z
 ---
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmNhNzAzODAtNGYyMi0xMWVmLTg3YmEtM2I5ZGZhOTI4Njg4
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: Zurychowcy?
- Date: 2024-07-31T09:49:26.840Z
----
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjM5ZjkxNzAtNGYyOS0xMWVmLWJmYWItZjc1Yjk1MWU5NmI0
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: czy to jest migracja z on prem na Clouda czy z Clouda 2.0 do Clouda 3.0?
- Date: 2024-07-31T10:41:05.543Z
-
-------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: Mateusz wiesz może coś więcej w kontekście Rabobank dla Piotrka Czubaszka? Widzę, że ma w sierpniu 3h tygodniowo. Rozumiem, ze na DemoX to nie wpływa?
- Date: 2024-07-30T11:55:05.901Z
----
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTgwYTgxYTAtNGU2YS0xMWVmLWI4YzctMjcxZjIzMTM4YTlm
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: bonus question: liczymy, że to się w coś więcej przerodzi, skoro to RFP?
- Date: 2024-07-30T11:55:19.610Z
----
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTNlMWU2MTAtNGU3MC0xMWVmLTlmZDQtZDE1ZmQwYjY4OGVh
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: apropos Rabo , ze wczoraj taki news z kanalow Rabo:
-FYI: Cognizant will do a PoC with Pega for Insurance & Pensions. Objective is to demonstrate how Pega integrates with several API's. Similar PoC done with Camunda prior to reorganization. Because Insurance & Pensions is now part of Customer Journeys (on Pega), they are now considering Pega.
- Date: 2024-07-30T12:34:34.865Z
----
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvODFjODgyMDAtNGU3Yi0xMWVmLTk0Y2YtYWJlNDg0MzQyNTFl
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: To dla Piotrka, to pomoc przy rfp związanym z Sales Automation. To jest uzgodnione z DemoX
- Date: 2024-07-30T13:56:23.712Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjNlYjQwMzAtNTIzOS0xMWVmLWJmNjEtYmJhZGUxYWM2NzJh
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: Drakonflies feed on embers and glowing coals found in ancient dragon nests.
+ Date: 2024-08-04T08:13:11.475Z
 
 ------
 
 ------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvN2MwZTgyMzAtNGYyMy0xMWVmLWE1MjgtZGZjMTFiYTdjZDRl
- Text: Mateusz a w kontekscie tego Manchesteru cos sie ruszylo?
- Date: 2024-07-31T09:58:49.555Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Who was the first emperor of the underwater kingdom of Atlantia?
+ Date: 2024-08-04T08:13:24.045Z
+---
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzNjMTgyZDAtNTIzOS0xMWVmLWFjNTMtNWQ1ZjZlZWQ5NGQ3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: I don't now, maybe Zeus?
+ Date: 2024-08-04T08:13:38.045Z
+---
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzc4MDVmOTAtNTIzOS0xMWVmLTgwMTUtMGQ2ZjJkZGJmZjA3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Emperor Oceanius the Great, known for uniting the seven underwater clans.
+ Date: 2024-08-04T08:13:44.329Z
 
 ------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: #Cloud migration - jest opracowywana lista osób, które mogłyby być wypożyczone do zespołu zajmującego się Cloud migration na 3-6 misięcy. Chodzi o ławkowiczów. Zadania są różne, od tworzenia dokumentacji biznesowej, przez sprzedażową, po playbook techniczny dotyczący migracji. 
- Date: 2024-07-31T09:47:26.292Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: What is the diet of a drakonfly, a mythical insect that breathes fire?
+ Date: 2024-08-04T08:13:01.806Z
 ---
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMmNhNzAzODAtNGYyMi0xMWVmLTg3YmEtM2I5ZGZhOTI4Njg4
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: Zurychowcy?
- Date: 2024-07-31T09:49:26.840Z
----
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjM5ZjkxNzAtNGYyOS0xMWVmLWJmYWItZjc1Yjk1MWU5NmI0
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvZTRjY2Q5NDAtNGYyMS0xMWVmLWFiZjAtNTE2NzFhODkzYTZm
- Text: czy to jest migracja z on prem na Clouda czy z Clouda 2.0 do Clouda 3.0?
- Date: 2024-07-31T10:41:05.543Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjNlYjQwMzAtNTIzOS0xMWVmLWJmNjEtYmJhZGUxYWM2NzJh
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: Drakonflies feed on embers and glowing coals found in ancient dragon nests.
+ Date: 2024-08-04T08:13:11.475Z
 
 ------
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: Mateusz wiesz może coś więcej w kontekście Rabobank dla Piotrka Czubaszka? Widzę, że ma w sierpniu 3h tygodniowo. Rozumiem, ze na DemoX to nie wpływa?
- Date: 2024-07-30T11:55:05.901Z
+
+------
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Who was the first emperor of the underwater kingdom of Atlantia?
+ Date: 2024-08-04T08:13:24.045Z
 ---
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOTgwYTgxYTAtNGU2YS0xMWVmLWI4YzctMjcxZjIzMTM4YTlm
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: bonus question: liczymy, że to się w coś więcej przerodzi, skoro to RFP?
- Date: 2024-07-30T11:55:19.610Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzNjMTgyZDAtNTIzOS0xMWVmLWFjNTMtNWQ1ZjZlZWQ5NGQ3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: I don't now, maybe Zeus?
+ Date: 2024-08-04T08:13:38.045Z
 ---
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvMTNlMWU2MTAtNGU3MC0xMWVmLTlmZDQtZDE1ZmQwYjY4OGVh
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: apropos Rabo , ze wczoraj taki news z kanalow Rabo:
-FYI: Cognizant will do a PoC with Pega for Insurance & Pensions. Objective is to demonstrate how Pega integrates with several API's. Similar PoC done with Camunda prior to reorganization. Because Insurance & Pensions is now part of Customer Journeys (on Pega), they are now considering Pega.
- Date: 2024-07-30T12:34:34.865Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNzc4MDVmOTAtNTIzOS0xMWVmLTgwMTUtMGQ2ZjJkZGJmZjA3
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmI2OTQ3ZDAtNTIzOS0xMWVmLTk2MDUtMTkxMTA2OTg0YWZh
+ Text: Emperor Oceanius the Great, known for uniting the seven underwater clans.
+ Date: 2024-08-04T08:13:44.329Z
+
+------
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: What is the diet of a drakonfly, a mythical insect that breathes fire?
+ Date: 2024-08-04T08:13:01.806Z
 ---
-ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvODFjODgyMDAtNGU3Yi0xMWVmLTk0Y2YtYWJlNDg0MzQyNTFl
-  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvOGZkZWFkZDAtNGU2YS0xMWVmLWJmYzktOGRmYjM5MWNhNDAy
- Text: To dla Piotrka, to pomoc przy rfp związanym z Sales Automation. To jest uzgodnione z DemoX
- Date: 2024-07-30T13:56:23.712Z
+ID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNjNlYjQwMzAtNTIzOS0xMWVmLWJmNjEtYmJhZGUxYWM2NzJh
+  ParentID: Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNWUyN2UwZTAtNTIzOS0xMWVmLTk2MTQtZjViN2IzNzRjYjZk
+ Text: Drakonflies feed on embers and glowing coals found in ancient dragon nests.
+ Date: 2024-08-04T08:13:11.475Z
 
 ------

@@ -8,7 +8,7 @@ const accessToken = process.env.ACCESS_TOKEN;
 
 const roomId = process.env.ROOM_ID;
 
-async function main() {
+export async function ingest() {
   let hasMessages = true;
   let lastMessageId = "";
   console.log("Starting...");
@@ -73,8 +73,6 @@ async function main() {
     }
   }
 }
-
-main();
 
 async function fetchReplies(messageId: string) {
   console.log(`Fetching replies for message ${messageId}`);

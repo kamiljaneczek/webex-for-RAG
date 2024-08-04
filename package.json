@@ -5,20 +5,20 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "my-node-cli": "./cli.js"
+    "webex-for-rag": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.json",
     "dev": "nodemon --exec ts-node ./cli.ts"
   },
   "repository": {
     "type": "git",
-    "url": "ai2r"
+    "url": "webex-for-rag"
   },
   "keywords": [
     "Webex scrape",
-    "RAg"
+    "RAG"
   ],
   "author": "Kamil Janeczek",
   "license": "ISC",
@@ -53,6 +53,7 @@
     "langchain": "^0.1.28",
     "objection": "^3.1.4",
     "openai": "^4.29.2",
+    "ora": "^8.0.1",
     "prisma": "^5.12.1",
     "uuid": "^9.0.1",
     "xml-js": "^1.6.11"
