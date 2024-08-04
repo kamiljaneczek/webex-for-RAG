@@ -1,21 +1,12 @@
 import * as fs from "fs";
 import dotenv from "dotenv";
+import { IData, IMessage } from "./types.js";
+
 dotenv.config();
 
 const accessToken = process.env.ACCESS_TOKEN;
 
 const roomId = process.env.ROOM_ID;
-
-type IData = {
-  items: IMessage[];
-};
-
-type IMessage = {
-  id: string;
-  parentId: string;
-  text: string;
-  created: string;
-};
 
 async function main() {
   let hasMessages = true;
