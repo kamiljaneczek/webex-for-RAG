@@ -1,0 +1,54 @@
+{
+  "name": "webex-for-rag",
+  "version": "1.0.0",
+  "description": "Scrape webex team channel messages and feed to vector db as part of RAG pattern",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ai2r"
+  },
+  "keywords": [
+    "Webex scrape",
+    "RAg"
+  ],
+  "author": "Kamil Janeczek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.49",
+    "@langchain/openai": "^0.0.22",
+    "@prisma/client": "^5.12.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "env-cmd": "^10.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "express": "^5.0.0-beta.2",
+    "langchain": "^0.1.28",
+    "objection": "^3.1.4",
+    "openai": "^4.29.2",
+    "prisma": "^5.12.1",
+    "uuid": "^9.0.1",
+    "xml-js": "^1.6.11"
+  }
+}
