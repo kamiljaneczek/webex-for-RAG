@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 
-import { program } from "commander";
 import chalk from "chalk";
+import { program } from "commander";
 import inquirer from "inquirer";
-import { select, Separator } from "@inquirer/prompts";
-import { ingest } from "../dist/commands/ingest.js";
+import { ingest } from "../src/commands/ingest.js";
 
 program.version("1.0.0").description("My Node CLI");
 

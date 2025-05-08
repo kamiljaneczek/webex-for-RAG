@@ -1,6 +1,6 @@
-import * as fs from "fs";
 import dotenv from "dotenv";
-import { IData, IMessage } from "./types.js";
+import * as fs from "fs";
+import { IData, IMessage } from "../types.js";
 
 dotenv.config();
 
@@ -10,15 +10,16 @@ const roomId = process.env.ROOM_ID;
 
 export async function ingest() {
   let hasMessages = true;
-  let lastMessageId = "";
+  let lastMessageId =
+    "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmVkZjEwODAtNzFhZi0xMWVmLWI0NDctNzdmNDBiNDBiZjZi";
   console.log("Starting...");
 
   while (hasMessages) {
     fs.appendFileSync("./messages.txt", "\n------\n");
     const URL =
       lastMessageId == ""
-        ? `https://webexapis.com/v1/messages?roomId=${roomId}&max=15`
-        : `https://webexapis.com/v1/messages?roomId=${roomId}&max=100&beforeMessage=${lastMessageId}`;
+        ? `https://webexapis.com/v1/messages?roomId=${roomId}&max=5000`
+        : `https://webexapis.com/v1/messages?roomId=${roomId}&max=5000&beforeMessage=${lastMessageId}`;
     const response = await fetch(URL, {
       method: "GET",
       headers: {
@@ -26,9 +27,20 @@ export async function ingest() {
       },
     });
     const data = (await response.json()) as IData;
-    const messages = data.items;
 
-    lastMessageId = data.items[data.items.length - 1].id;
+    if (!data || !data.items || !Array.isArray(data.items)) {
+      console.error("Invalid response format from API:", data);
+      hasMessages = false;
+      continue;
+    }
+
+    const messages = data.items;
+    if (messages.length === 0) {
+      hasMessages = false;
+      continue;
+    }
+
+    lastMessageId = messages[messages.length - 1].id;
 
     const filteredMessages = messages.filter((message: IMessage) => {
       console.log("message: ", message);
