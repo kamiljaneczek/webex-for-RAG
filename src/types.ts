@@ -5,6 +5,8 @@ export type IData = {
 export type IMessage = {
   id: string;
   parentId: string;
-  text: string;
+  text?: string;
   created: string;
+  parent?: string;
+  reply?: string;
 };

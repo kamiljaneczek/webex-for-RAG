@@ -10,12 +10,11 @@ const roomId = process.env.ROOM_ID;
 
 export async function ingest() {
   let hasMessages = true;
-  let lastMessageId =
-    "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvYmVkZjEwODAtNzFhZi0xMWVmLWI0NDctNzdmNDBiNDBiZjZi";
+  let lastMessageId = "";
   console.log("Starting...");
+  const allMessagesData: any[] = [];
 
   while (hasMessages) {
-    fs.appendFileSync("./messages.txt", "\n------\n");
     const URL =
       lastMessageId == ""
         ? `https://webexapis.com/v1/messages?roomId=${roomId}&max=5000`
@@ -43,14 +42,6 @@ export async function ingest() {
     lastMessageId = messages[messages.length - 1].id;
 
     const filteredMessages = messages.filter((message: IMessage) => {
-      console.log("message: ", message);
-      console.log("message.parentId: ", message.parentId);
-      console.log(
-        "take it or not:",
-        message.parentId == "" ||
-          message.parentId == null ||
-          message.parentId == undefined
-      );
       return (
         message.parentId == "" ||
         message.parentId == null ||
@@ -58,37 +49,38 @@ export async function ingest() {
       );
     });
 
-    const messagesWithReplies: IMessage[] = [];
-
     for (const message of filteredMessages) {
       const { id, parentId, text, created } = message;
-      const storeMessage = { id, parentId, text, created, level: "parent" };
-      // messagesWithReplies.push(storeMessage);
-      fs.appendFileSync(
-        "./messages.txt",
-        `ID: ${id}\n Text: ${text}\n Date: ${created}\n`
-      );
+      const storeMessage: any = {
+        //  id,
+        //  parentId,
+        parent: text,
+        //   created,
+        //  level: "parent",
+        replies: [],
+      };
 
       const replies = await fetchReplies(message.id);
-      messagesWithReplies.push(...replies);
-      fs.appendFileSync("./messages.txt", `\n------\n`);
+      storeMessage.replies = replies;
+      allMessagesData.push(storeMessage);
     }
 
-    /*     fs.appendFileSync(
-      "./messages.json",
-      JSON.stringify(messagesWithReplies, null, 2)
-    ); */
-
+    // Simplified loop termination: process one batch then stop.
+    // Remove or adjust this for full ingestion.
     hasMessages = false;
     if (data.items.length < 100) {
-      // hasMessages = false;
+      // This condition might be part of pagination logic
+      // hasMessages = false; //
     }
   }
+
+  fs.writeFileSync("./messages.json", JSON.stringify(allMessagesData, null, 2));
+  console.log("Finished ingesting messages. Data saved to messages.json");
 }
 
-async function fetchReplies(messageId: string) {
+async function fetchReplies(messageId: string): Promise<IMessage[]> {
   console.log(`Fetching replies for message ${messageId}`);
-  const messagesWithReplies: IMessage[] = [];
+  const collectedReplies: IMessage[] = [];
   const repliesResponse = await fetch(
     `https://webexapis.com/v1/messages?roomId=${roomId}&max=100&parentId=${messageId}`,
     {
@@ -111,16 +103,12 @@ async function fetchReplies(messageId: string) {
     let reversedMessages = replyMessages.slice().reverse();
 
     reversedMessages.forEach((replyMessage: IMessage) => {
-      fs.appendFileSync("./messages.txt", `---\n`);
       const { id, parentId, text, created } = replyMessage;
-      const storeReply = { id, parentId, text, created, level: "child" };
-      fs.appendFileSync(
-        "./messages.txt",
-        `ID: ${id}\n  ParentID: ${parentId}\n Text: ${text}\n Date: ${created}\n`
-      );
-
-      // messagesWithReplies.push(storeReply);
+      //  const storeReply = { id, parentId, text, created, level: "child" };
+      const storeReply = { response: text };
+      //@ts-ignore
+      collectedReplies.push(storeReply as IMessage);
     });
   }
-  return messagesWithReplies;
+  return collectedReplies;
 }
