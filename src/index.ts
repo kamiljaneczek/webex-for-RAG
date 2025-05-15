@@ -3,7 +3,7 @@
 import chalk from "chalk";
 import { program } from "commander";
 import inquirer from "inquirer";
-import { ingest } from "../src/commands/ingest.js";
+import { ingest } from "./commands/ingest.js";
 
 program.version("1.0.0").description("My Node CLI");
 
